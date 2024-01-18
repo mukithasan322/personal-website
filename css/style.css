@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; 
+}
+#width{
+    padding-top: 200px;
+    line-height: 50px;
+}
+#width h1{
+    font-size: 50px;
+    color: red;
+}
+#width p{
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-weight: 600;
+    font-family: 'poppins';
+    
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    
+       
+}
+#text{
+    padding-top: 200px;
+    line-height: 50px;
+}
+#text p{
+    line-height: 20px;
+    font-weight: 600;
+    font-family: 'poppins';
+}
+#text h2{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'poppins';
+}
+.top-banner{
+    background: url(/assets/images/header-bg.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 100%;
+    padding-bottom: 150px;
+}
+.half-width img{
+    width: 500px;
+}
+.btn{
+    background-color: brown;
+    height: 10%;
+    width: 30%;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: wheat;
+    margin-top: 20px;
+}
+.btn:hover{
+    background-color: blue;
+    transform: translate(.3s);
+    
+}
+
+
+.container-0{
+    display: flex;
+    width: 100%;
+    padding: 100px;
+    gap: 50px;
+}
+.container-1 img{
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 10px 5px rgb(169, 165, 122);
+}
+.container-1 img:hover {
+    /* opacity: 0.8; */
+    transform: scale(0.9);
+}
+.headline{
+    font-size: 40px;
+    color: black;
+    font-weight: 900;
+    margin-top: 500px;
+    margin-left: -200px;
+}
+.headline span{
+    color: darkorange;
+}
+.headline:hover{
+    text-decoration: underline;
+}
+.footer-section{
+    text-align: center;
+    font-family: 'poppins';
+    line-height: 20px;
+}
+.footer-section .ptn{
+    font-size: 10px;
+    line-height: 20px;
+    color: aliceblue;
+
+}
+.footer-section h2{
+    font-size: 20px;
+    line-height: 30px;
+}
+#lorem{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer-btn{
+    height: 50px;
+    width: 30%;
+    background-color: brown;
+    border-radius: 20px;
+}
+.footer-btn h3{
+    color: white;
+}
+#coprright{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
